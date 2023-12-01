@@ -140,6 +140,7 @@ def msgs_to_df(msgs):
     df = pd.DataFrame(msg_list)
     return df
 
+
 def process_msgs(msg):
     '''
     select important columns from the message
